@@ -125,6 +125,9 @@ class _RepeatSampler(object):
             yield from iter(self.sampler)
 
 
+print("hello world")
+
+
 class LoadImages:  # for inference
     def __init__(self, path, img_size=640, stride=32):
         p = str(Path(path).absolute())  # os-agnostic absolute path
