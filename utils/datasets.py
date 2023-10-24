@@ -203,6 +203,7 @@ class LoadImages:  # for inference
 
     def __len__(self):
         return self.nf  # number of files
+print('hello word')
 
 
 class LoadWebcam:  # for inference
